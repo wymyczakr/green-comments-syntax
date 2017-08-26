@@ -1,0 +1,46 @@
+atom-text-editor {
+  background-color: white;
+  color: black;
+
+  .wrap-guide {
+    background-color: lightgray;
+  }
+
+  .indent-guide {
+    color: lightgray;
+  }
+
+  .invisible-character {
+    color: lightgray;
+  }
+
+  .gutter .line-number.folded,
+  .gutter .line-number:after,
+  .fold-marker:after {
+    color: lightgray;
+  }
+
+  .invisible {
+    color: lightgray;
+  }
+
+  .cursor {
+    color: black;
+  }
+
+  .selection .region {
+    background-color: gainsboro;
+  }
+}
+
+// Syntax styles
+
+.syntax--comment {
+  color: green;
+}
+
+// Mini editor
+
+atom-text-editor[mini] .scroll-view {
+  padding-left: 1px;
+}
