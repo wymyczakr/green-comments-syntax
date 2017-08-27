@@ -2,7 +2,7 @@
   "name": "green-comments-syntax",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "Black on white text with green comments.",
+  "description": "Black on white text with green comments. No syntax highlighting.",
   "keywords": [
     "plain"
     "light",
